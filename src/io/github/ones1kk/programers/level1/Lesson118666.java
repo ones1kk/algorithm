@@ -1,7 +1,6 @@
 package io.github.ones1kk.programers.level1;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Lesson118666 {
@@ -53,7 +52,6 @@ public class Lesson118666 {
             char type = resultMap.get(x) >= resultMap.get(y) ? x : y;
             answer.append(type);
         }
-
 
         return answer.toString();
     }

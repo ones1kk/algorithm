@@ -17,7 +17,6 @@ public class Lesson64061 {
                     board[j][move] = 0;
                     break;
                 }
-
             }
 
             if (pick != 0) {

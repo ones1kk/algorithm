@@ -15,5 +15,6 @@ class Lesson42840Test extends Specification {
         answers         | result
         [1, 2, 3, 4, 5] | [1]
         [1, 3, 2, 4, 2] | [1, 2, 3]
+        [5, 5, 5, 5, 5, 5, 5, 5, 5, 5] | [1, 3]
     }
 }

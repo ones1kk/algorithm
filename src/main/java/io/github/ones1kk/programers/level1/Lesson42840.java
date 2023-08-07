@@ -7,7 +7,7 @@ public class Lesson42840 {
 
     public static int[] solution(int[] answers) {
         int[] student1 = {1, 2, 3, 4, 5};
-        int[] student2 = {2, 1, 2, 2, 2, 3, 2, 4, 2, 5};
+        int[] student2 = {2, 1, 2, 3, 2, 4, 2, 5};
         int[] student3 = {3, 3, 1, 1, 2, 2, 4, 4, 5, 5};
 
         int[] candidates = new int[3];
@@ -19,16 +19,17 @@ public class Lesson42840 {
         }
 
         int max = Math.max(candidates[0], Math.max(candidates[1], candidates[2]));
+
         List<Integer> list = new ArrayList<>();
-        for (int candidate : candidates) {
-            if (max == candidate) {
-                list.add(candidate);
+        for (int i = 0; i < candidates.length; i++) {
+            if (max == candidates[i]) {
+                list.add(i + 1);
             }
         }
 
         int[] answer = new int[list.size()];
         for (int i = 0; i < list.size(); i++) {
-            answer[i] = i + 1;
+            answer[i] = list.get(i);
         }
 
         return answer;

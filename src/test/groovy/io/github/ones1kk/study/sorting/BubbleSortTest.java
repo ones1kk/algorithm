@@ -13,7 +13,7 @@ class BubbleSortTest {
     @ParameterizedTest
     @ValueSource(strings = {
             "3,7,5,2,1"
-//            , "102,1,4,4214,123,3,6"
+            , "102,1,4,4214,123,3,6"
     })
     @DisplayName("버블 정렬")
     void testBubbleSort(String value) {

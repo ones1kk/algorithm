@@ -1,4 +1,4 @@
-package io.github.ones1kk.beakjoon.silver02;
+package io.github.ones1kk.beakjoon.silver.silver02;
 
 public class Problem1260 {
 

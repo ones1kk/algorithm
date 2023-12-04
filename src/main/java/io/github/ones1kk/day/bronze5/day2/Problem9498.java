@@ -1,4 +1,4 @@
-package io.github.ones1kk.day.day2;
+package io.github.ones1kk.day.bronze5.day2;
 
 import java.util.Scanner;
 

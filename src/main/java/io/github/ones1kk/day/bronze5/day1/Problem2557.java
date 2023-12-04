@@ -1,4 +1,4 @@
-package io.github.ones1kk.day.day1;
+package io.github.ones1kk.day.bronze5.day1;
 
 public class Problem2557 {
 

@@ -34,6 +34,6 @@ public class Lesson67258 {
             }
         }
 
-        return new int[] {startPoint + 1, startPoint + end};
+        return new int[]{startPoint + 1, startPoint + end};
     }
 }

@@ -1,6 +1,8 @@
 package io.github.ones1kk.programers.level2;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.stream.Collectors;
 
 public class Lesson118667 {

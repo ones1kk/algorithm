@@ -17,7 +17,7 @@ public class Lesson17681 {
                 answer[i] = ' ' + answer[i];
             }
         }
-        
+
         return answer;
     }
 }

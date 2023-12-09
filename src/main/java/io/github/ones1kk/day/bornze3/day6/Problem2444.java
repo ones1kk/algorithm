@@ -11,7 +11,7 @@ public class Problem2444 {
 
         for (int i = 1; i <= length; i++) {
             if (i % 2 != 0) {
-                int space = (length - i)/2;
+                int space = (length - i) / 2;
                 String start = " ".repeat(Math.max(0, space)) +
                         "*".repeat(Math.max(0, i));
                 System.out.print(start);
@@ -19,9 +19,9 @@ public class Problem2444 {
             }
         }
 
-        for (int i = length -1; i > 0; i--) {
+        for (int i = length - 1; i > 0; i--) {
             if (i % 2 != 0) {
-                int space = (length - i)/2;
+                int space = (length - i) / 2;
                 String start = " ".repeat(Math.max(0, space)) +
                         "*".repeat(i);
                 System.out.print(start);

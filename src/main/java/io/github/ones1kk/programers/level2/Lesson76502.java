@@ -23,7 +23,7 @@ public class Lesson76502 {
                 if (c == '[' || c == '(' || c == '{') {
                     stack.push(c);
                 } else if (c == ']' || c == ')' || c == '}') {
-                    if (!stack.contains(map.get(c)) ) {
+                    if (!stack.contains(map.get(c))) {
                         flag = false;
                         break;
                     }

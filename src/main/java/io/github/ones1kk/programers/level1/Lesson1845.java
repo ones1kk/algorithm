@@ -1,8 +1,6 @@
 package io.github.ones1kk.programers.level1;
 
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 public class Lesson1845 {

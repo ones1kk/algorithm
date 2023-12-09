@@ -14,8 +14,8 @@ public class Problem10818 {
 
         for (int i = 0; i < length; i++) {
             int value = sc.nextInt();
-            if(value > max) max = value;
-            if(value < min) min = value;
+            if (value > max) max = value;
+            if (value < min) min = value;
         }
 
         System.out.println(min + " " + max);

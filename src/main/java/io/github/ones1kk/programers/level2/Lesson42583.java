@@ -28,7 +28,7 @@ public class Lesson42583 {
                 truck.addTime();
             }
 
-            if(idx == truck_weights.length && queue.isEmpty()) {
+            if (idx == truck_weights.length && queue.isEmpty()) {
                 break;
             }
 

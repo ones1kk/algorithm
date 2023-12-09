@@ -47,8 +47,6 @@ public class MergeSort {
             }
         }
 
-        for (int i = left; i <= right; i++) {
-            arr[i] = sorted[i];
-        }
+        if (right + 1 - left >= 0) System.arraycopy(sorted, left, arr, left, right + 1 - left);
     }
 }

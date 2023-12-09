@@ -5,15 +5,15 @@ public class Lesson161989 {
 
     public static int solution(int n, int m, int[] section) {
         int start = section[0];
-        int end = section[0] + m -1;
+        int end = section[0] + m - 1;
         int answer = 1;
 
         for (int i : section) {
-            if(i >= start && i <= end) {
+            if (i >= start && i <= end) {
                 continue;
-            }else {
+            } else {
                 start = i;
-                end = start + m-1;
+                end = start + m - 1;
                 answer++;
             }
         }

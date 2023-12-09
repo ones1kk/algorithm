@@ -21,7 +21,7 @@ public class Lesson42885 {
                 right--;
             }
 
-            if(left == right){
+            if (left == right) {
                 answer++;
             }
         }

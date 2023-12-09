@@ -1,8 +1,9 @@
 package io.github.ones1kk.programers.level1;
 
-import java.time.*;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
 import java.time.format.TextStyle;
-import java.util.*;
+import java.util.Locale;
 
 public class Lesson12901 {
 

@@ -13,7 +13,11 @@ public class Problem1205 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());
-        int new_score = Integer.parseInt(st.nextToken());
+        if(n == 0) {
+            System.out.println(1);
+            return;
+        }
+        int score = Integer.parseInt(st.nextToken());
         int p = Integer.parseInt(st.nextToken());
 
         List<Integer> list = new ArrayList<>();
@@ -23,12 +27,12 @@ public class Problem1205 {
         }
         list.sort(Comparator.reverseOrder());
 
-        if (n == p && new_score <= list.get(list.size() - 1))
+        if (n == p && score <= list.get(list.size() - 1))
             System.out.print(-1);
         else {
             int rank = 1;
             for (Integer integer : list) {
-                if (new_score < integer)
+                if (score < integer)
                     rank++;
                 else {
                     break;

@@ -36,12 +36,10 @@ public class Problem1325 {
         }
 
         int idx = 1;
-        while (idx != n+1) {
+        while (idx != n + 1) {
             visited = new boolean[n + 1];
-            for (int i = idx; i <= n; i++) {
-                if (!visited[i]) {
-                    dfs(i, map, visited);
-                }
+            if (!visited[idx]) {
+                dfs(idx, map, visited);
             }
             idx++;
         }
@@ -67,7 +65,7 @@ public class Problem1325 {
             int next = map[idx].get(i);
             if (!visited[next]) {
                 dfs(next, map, visited);
-                ANSWER[next + 1]++;
+                ANSWER[next]++;
             }
         }
     }

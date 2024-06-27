@@ -5,7 +5,7 @@ import spock.lang.Specification
 
 class Class010Test extends Specification {
 
-    def "문제001"() {
+    def "문제010"() {
         when:
         def solution = Class010.resolve(arr as long[], count as int)
 

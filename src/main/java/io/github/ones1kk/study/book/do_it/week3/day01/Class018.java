@@ -26,8 +26,6 @@ public class Class018 {
                 answer++;
             }
         }
-        dfs(1);
-
         return answer;
     }
 
